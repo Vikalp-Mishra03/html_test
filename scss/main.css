@@ -137,7 +137,7 @@ body {
   color: #000000;
 }
 
-.testimonial {
+.brief {
   display: flex;
   /* position: absolute; */
   justify-content: space-evenly;
@@ -145,7 +145,7 @@ body {
   margin-right: 100px;
 }
 
-.testimonial .box {
+.brief .box {
   width: 308px;
   text-align: center;
   height: 320px;
@@ -157,7 +157,7 @@ body {
   padding: 30px;
 }
 
-.testimonial h4 {
+.brief h4 {
   font-weight: 600;
   font-size: 22px;
 }
