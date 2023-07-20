@@ -178,6 +178,7 @@ body {
 }
 
 .about h4 {
+  text-shadow: 0 0 2px #000;
   font-weight: 800;
   font-size: 25px;
 }
@@ -189,6 +190,7 @@ body {
 
 .about h5 {
   font-weight: 700;
+  text-shadow: 0 0 2px #000;
   line-height: 5;
 }
 
@@ -200,10 +202,12 @@ body {
 }
 
 .target {
-  padding: 10px 0 40px 310px;
+  width: 80%;
+  /* padding: 10px 200px 40px 310px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 10%;
 }
 
 span {
@@ -227,6 +231,7 @@ span {
 .target-box {
   width: 41%;
   margin-top: 100px;
+  margin-left: 10%;
 }
 
 .top {
@@ -246,11 +251,11 @@ span {
   font-size: 24px;
   font-weight: 800;
   text-align: center;
+  text-shadow: 0 0 2px #000;
 }
 
 .target #right {
-  margin-left: 40%;
-
+  margin-left: 55%;
 }
 
 
@@ -264,6 +269,7 @@ span {
 }
 
 .testimonial h4 {
+  text-shadow: 0 0 2px #000;
   font-size: 35px;
   margin-bottom: 105px;
   font-weight: 600;
@@ -288,6 +294,7 @@ span {
 }
 
 .heading h5 {
+  text-shadow: 0 0 2px #000;
   font-size: 25px;
   font-weight: 800;
   margin-left: 25px;
@@ -347,4 +354,52 @@ span {
   font-size: 30px;
   padding: 10px 25px;
   color: gray;
+}
+
+.brands {
+  margin-top: 20%;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brands h4 {
+  text-shadow: 0 0 2px #000;
+  font-size: 35px;
+  margin-bottom: 105px;
+  font-weight: 600;
+}
+
+.brands h3 {
+  text-shadow: 0 0 2px #000;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+}
+
+.brand {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  height: 145px;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: 200px;
+  width: 100vw;
+  height: 365px;
+  color: white;
+  background: black;
+  display: flex;
+  font-size: 20px;
+  align-items: flex-end;
+  justify-content: center;
 }
