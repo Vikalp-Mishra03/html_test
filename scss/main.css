@@ -174,7 +174,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 240px;
+  padding: 240px 240px 145px 240px;
 }
 
 .about h4 {
@@ -197,4 +197,58 @@ body {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
+}
+
+.target {
+  padding: 10px 0 40px 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span {
+  display: inline-block;
+  width: 247px;
+  height: 65px;
+  background: #1492E6;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 33px;
+  text-align: center;
+  /* opacity: 1; */
+  padding-top: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.target p {
+  font-size: 20px;
+}
+
+.target-box {
+  width: 41%;
+  margin-top: 100px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.top img {
+  display: flex;
+  align-items: center;
+}
+
+.target h4 {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.target #right{
+  margin-left: 40%;
+
 }
