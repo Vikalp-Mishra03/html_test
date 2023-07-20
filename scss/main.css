@@ -127,6 +127,21 @@ body {
   position: relative;
 }
 
+.left h4 {
+  text-shadow: 0 0 2px #000;
+  font-size: 35px;
+  /* margin-bottom: 105px; */
+  font-weight: 600;
+}
+
+.middle h4 {
+  text-shadow: 0 0 2px #000;
+  font-size: 35px;
+  margin-bottom: 105px;
+  font-weight: 600;
+  text-align: center;
+}
+
 .middle h3 {
   left: 520px;
   font-weight: 900;
@@ -141,6 +156,7 @@ body {
   display: flex;
   /* position: absolute; */
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -149,7 +165,7 @@ body {
   width: 308px;
   text-align: center;
   height: 320px;
-  margin-top: 100px;
+  margin-top: 20px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   border-radius: 18px;
@@ -157,13 +173,21 @@ body {
   padding: 30px;
 }
 
+.brief p {
+  margin-top: -100px;
+}
+
 .brief h4 {
+  text-shadow: 0 0 2px #000;
+  font-size: 35px;
+  margin-bottom: 105px;
   font-weight: 600;
-  font-size: 22px;
+  text-align: center;
 }
 
 .big-container {
   background-color: #F8FAFC;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
@@ -172,6 +196,7 @@ body {
 .about {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
   padding: 240px 240px 145px 240px;
@@ -179,8 +204,10 @@ body {
 
 .about h4 {
   text-shadow: 0 0 2px #000;
-  font-weight: 800;
-  font-size: 25px;
+  font-size: 35px;
+  margin-bottom: 105px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .small-box {
@@ -248,6 +275,13 @@ span {
 }
 
 .target h4 {
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 0 0 2px #000;
+}
+
+.target h3 {
   font-size: 24px;
   font-weight: 800;
   text-align: center;
@@ -402,4 +436,113 @@ footer {
   font-size: 20px;
   align-items: flex-end;
   justify-content: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .hero {
+    flex-direction: column-reverse;
+    margin-left: 100px;
+  }
+
+  .main-container {
+    margin-top: 50px;
+  }
+
+  .hero .left {
+    margin-top: -400px;
+    margin-bottom: 300px;
+  }
+
+  .hero .right img {
+    margin-top: 30px;
+  }
+
+  .brief {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .middle h4 {
+    font-size: 25px;
+  }
+
+  .middle p {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .brief .box {
+    width: 235px;
+  }
+
+  .about {
+    padding: 0;
+
+  }
+
+  .about h4 {
+    font-size: 25px;
+    margin-bottom: -15px;
+    margin-top: 100px;
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  .about h5 {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .about p {
+    font-size: 70%;
+    text-align: justify;
+  }
+
+  .target h4 {
+    font-size: 25px;
+    margin-bottom: -15px;
+    margin-top: 100px;
+  }
+
+  .target-box {
+    width: 85%;
+    margin-top: 100px;
+    margin-left: 10%;
+    text-align: justify;
+  }
+
+  .target #right {
+    margin-left: 60px;
+  }
+
+  .testimonial .stylish-box {
+    width: 98%;
+  }
+
+  .stylish-box .circle {
+    display: none;
+  }
+
+  .testimonial-box {
+    flex-wrap: wrap;
+  }
+
+  .feedback {
+    width: 230px;
+    height: 323px;
+  }
+
+  .feedback .block {
+    margin-left: 5px;
+    font-size: 13px;
+    text-align: justify;
+    margin-right: 5px;
+  }
+
+  .testimonial .name .ceo {
+    font-size: 9px;
+  }
 }
