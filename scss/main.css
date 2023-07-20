@@ -586,3 +586,48 @@ footer {
     height: 245px;
   }
 }
+
+
+@media only screen and (max-width: 530px) {
+
+  .hero {
+    width: 170px;
+    margin-left: 55px;
+  }
+
+  .left p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .hero p {
+    margin-left: 110px;
+    width: 325px;
+  }
+
+
+  .left h4 {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  .brands {
+    margin-top: 215%;
+  }
+
+  .brand {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .testimonial .stylish-box {
+    box-shadow: none;
+    background-color: white;
+  }
+
+  .brands h4 {
+    text-align: center;
+  }
+}
